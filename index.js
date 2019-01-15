@@ -37,7 +37,7 @@ const requestFun = function(data,city) {
         .find("li")
         .find("p")
         .each(function(ele) {
-            jichang.push($(this).attr("data-name"));
+            jichang.push($(this).text().trim());
         });
       fs.appendFile('jichang/' + city + ".txt", JSON.stringify(jichang, null, 4), err => {
         if (err) {
