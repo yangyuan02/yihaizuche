@@ -1,0 +1,21 @@
+{
+  "name": "student-q",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bagpipe": "^0.3.5",
+    "mongodb": "^2.2.33",
+    "request": "^2.83.0",
+    "single-line-log": "^1.1.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "consola": "^2.3.2"
+  }
+}
